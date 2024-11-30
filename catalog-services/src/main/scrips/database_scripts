@@ -1,0 +1,6 @@
+use ecom;
+create table catalog(catalog_id int auto_increment primary key ,  catalog_name varchar(50) not null,description varchar(150) not null,tags varchar(150) );
+create table product(product_id int  ,name varchar(50) primary key ,price float not null ,discount_price float ,description varchar(150),sku varchar(50),quantity int not null ,quantity_type varchar(50),category varchar(50),image_url varchar(200),catalog_name varchar(50));
+show tables;
+select * from catalog;
+select * from product;

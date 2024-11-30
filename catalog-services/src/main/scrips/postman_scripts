@@ -1,0 +1,57 @@
+1.create catalog
+   url:-http://localhost:8080/catalog
+   method:-POST
+
+2.create product
+   url:-http://localhost:8080/product/mobiles
+   method:-POST
+
+3.delete catalog
+   url:-http://localhost:8080/catalog/Mobiles
+   method:-DELETE
+
+4.delete product
+    url:-http://localhost:8080/product/iphone v20
+    method:-DELETE
+
+5.get catalog
+    url:-http://localhost:8080/product/Mobiles
+    method:-GET
+
+6.get product
+   url:-http://localhost:8080/product/Vivo v20
+   method:-GET
+
+7.get ListOfProducts
+    url:-http://localhost:8080/product/List/mobiles
+    method:-GET
+
+8.update product
+   url:-http://localhost:8080/product/iphone v20
+   method:-PUT
+
+
+   ex:- product Object
+
+   {
+       "id": 3,
+       "name": "iphone v20",
+       "description": "5g",
+       "price": 125000,
+       "discountedPrice": 100000,
+       "quantity": 42,
+       "sku": "5oik",
+       "quantityType": "number",
+       "category": "mobile",
+       "imageUrl": "http://localhost:google/image/iphone"
+   }
+
+
+
+  Ex:- Catalog Object
+
+  {
+      "name": "mobiles",
+      "description": "latest 5g 2024",
+      "tags":"vivo,realme"
+  }
